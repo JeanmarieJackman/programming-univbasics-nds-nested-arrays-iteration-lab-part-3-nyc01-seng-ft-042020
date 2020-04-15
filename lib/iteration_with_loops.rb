@@ -9,9 +9,11 @@ while row_index < src.count do
   element_index = 0
   
   while element_index < src[row_index].count do
-    if src[row_index][element_index].float?
-      
-      string_array << src[row_index][element_index]
+   
+   if src[row_index][element_index] == src[row_index][element_index].to_s
+        string_array += src[row_index][element_index].to_s + " "
+        
+   
     end 
     element_index += 1
   end
@@ -23,5 +25,6 @@ string_array
 end
 
 
-if src[count][i] == src[count][i].to_s
-        message += src[count][i].to_s + " "
+
+      
+        
