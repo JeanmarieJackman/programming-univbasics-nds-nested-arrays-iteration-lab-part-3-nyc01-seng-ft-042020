@@ -23,8 +23,7 @@ string_array
 end
 
 
-if src[row_index][element_index] == src[row_index][element_index].to_s
-        string_array += src[row_index][element_index].to_s + " "
+
         
       
         
