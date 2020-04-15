@@ -10,8 +10,7 @@ count = 0
   
     while element_index < src[row_index].count do
       if src[row_index][element_index] == src[row_index][element_index].to_s
-      new_array << [row_index][element_index]
-      new_array[].join(" ")
+      new_array[row_index][element_index].join
     end 
     
     element_index += 1
