@@ -21,3 +21,7 @@ end
 
 string_array
 end
+
+
+if src[count][i] == src[count][i].to_s
+        message += src[count][i].to_s + " "
